@@ -1,22 +1,22 @@
-import React from "react";
-import NavbarSection from "../NavbarSection";
-import { Home, Whatshot, Subscriptions } from "@mui/icons-material";
+import React from 'react'
+import NavbarSection from '../NavbarSection'
+import { Home, Whatshot, Subscriptions } from '@mui/icons-material'
 
 const sectionElements = [
   {
     icon: <Home />,
-    text: "Inicio",
+    text: 'Home',
   },
   {
     icon: <Whatshot />,
-    text: "Em alta",
+    text: 'Whats Hot',
   },
   {
-    icon: <Home />,
-    text: "Inscrições",
+    icon: <Subscriptions />,
+    text: 'Subscriptions',
   },
-];
+]
 
-const FirstSection = () => <NavbarSection elements={sectionElements} />;
+const FirstSection = () => <NavbarSection elements={sectionElements} />
 
-export default FirstSection;
+export default FirstSection

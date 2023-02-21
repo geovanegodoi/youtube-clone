@@ -1,19 +1,33 @@
 import React from "react";
-import HomeIcon from "@mui/icons-material/Home";
+import {
+    Headphones,
+    SportsFootball,
+    SportsEsports,
+    LocalMovies,
+    Newspaper,
+} from "@mui/icons-material";
 import NavbarSection from "../NavbarSection";
 
 const sectionElements = [
     {
-        icon: <HomeIcon />,
-        text: "Opcao 1",
+        icon: <Headphones />,
+        text: "Music",
     },
     {
-        icon: <HomeIcon />,
-        text: "Opcao 2",
+        icon: <SportsFootball />,
+        text: "Sports",
     },
     {
-        icon: <HomeIcon />,
-        text: "Opcao 3",
+        icon: <SportsEsports />,
+        text: "Games",
+    },
+    {
+        icon: <LocalMovies />,
+        text: "Movies",
+    },
+    {
+        icon: <Newspaper />,
+        text: "News",
     },
 ];
 

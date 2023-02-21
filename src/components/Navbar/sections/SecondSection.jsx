@@ -1,22 +1,22 @@
-import React from "react";
-import NavbarSection from "../NavbarSection";
-import { VideoLibrary, History, WatchLater } from "@mui/icons-material";
+import React from 'react'
+import NavbarSection from '../NavbarSection'
+import { VideoLibrary, History, WatchLater } from '@mui/icons-material'
 
 const sectionElements = [
   {
     icon: <VideoLibrary />,
-    text: "Biblioteca",
+    text: 'Library',
   },
   {
     icon: <History />,
-    text: "Histórico",
+    text: 'History',
   },
   {
     icon: <WatchLater />,
-    text: "Assistir depois",
+    text: 'Watch Later',
   },
-];
+]
 
-const SecondSection = () => <NavbarSection elements={sectionElements} />;
+const SecondSection = () => <NavbarSection elements={sectionElements} />
 
-export default SecondSection;
+export default SecondSection

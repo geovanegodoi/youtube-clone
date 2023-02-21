@@ -1,12 +1,12 @@
-import React from "react";
-import Topbar from "./components/Topbar";
-import Navbar from "./components/Navbar";
+import React from 'react'
+import Topbar from './components/Topbar'
+import Navbar from './components/Navbar'
 
 const App = () => {
-  const [navbarState, setNavbarState] = React.useState(false);
+  const [navbarState, setNavbarState] = React.useState(false)
 
   function toggleNavbar(state) {
-    setNavbarState(state);
+    setNavbarState(state)
   }
 
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <Topbar toggleNavbar={toggleNavbar} />
       <Navbar state={navbarState} toggleNavbar={toggleNavbar} />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
